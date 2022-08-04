@@ -1,0 +1,281 @@
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    margin: 0%;
+    overflow-x: hidden;
+    margin-bottom: 10px;
+}
+    
+
+/* ************ ----------- Header ----------**********/
+header{
+
+  width: 100%;
+  height: 600px;
+  background: url('images/backgroudpic/bgpic.jpeg');
+  background-size: cover;
+  margin-bottom: 160px;
+  
+  
+  
+}
+
+/* --------------- Navbar--------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.nav-logo a{
+
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    padding-left: 65px;
+    font-weight: 600;
+
+}
+.nav-menu a{
+
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    padding-right: 55px;
+    font-weight: 600;
+}
+
+/* ------------ horizontal line ----------- */
+
+.head-heading {
+    text-align: center;
+    padding-top: 223px;
+    color: #1E8449;
+}
+
+hr{
+    width: 50%;
+    border: 2px solid black;
+}
+ 
+.header-info .goahead-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  margin-left: 43%;
+}
+
+/* -------------header button----------- */
+.goahead-button{
+       
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: #b84ab8;
+    border-radius: 5px;
+    width: 12%;
+    font-weight: 700;
+    color: white;
+    font-size: 120%;
+    border: 6px solid #cfbbd6;
+    
+}
+
+/*  ----------------- header end ------------*/
+
+/* -------------- main start----------  */
+
+main{
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+
+.information{
+     
+    text-align: center;
+    margin-bottom: 80px;
+}
+.information p{
+    width: 75%;
+    margin-left:160px;
+}
+
+/* ------------website Article -----------*/
+.article-container{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    margin: 30px;
+    margin-bottom: 80px;
+    
+}
+
+/* ---------- --------Article images -----------------*/
+.article-1 img {
+    padding-left: 33%;
+    width: 55px;
+}
+.article-2 img{
+    padding-left: 33%;
+    width: 55px;
+}
+.article-3 img{
+    padding-left: 33%;
+    width: 55px;
+}
+
+
+/* ------------ Article heading --------*/
+
+.article-1 h3 {
+    padding-left: 20%;
+    
+}
+.article-2 h3{
+    padding-left: 19%;
+    
+}
+.article-3 h3{
+    padding-left: 32%;
+    
+}
+
+/* ---------- Flower content -----------*/
+
+.flower{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 50px;
+    margin: 30px;
+}
+
+/* ------------- Flower images ---------- */
+.img2 img{
+         
+    margin-left: 40px;
+
+}
+.img4 img{
+
+    margin-left: 40px;
+}
+
+/* ------------ button --------- */
+.view-arrow{
+    display: flex;
+    background-color: #b84ab8;
+    width: 160px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 42%;
+    border: 2px solid #b84ab8;
+    border-radius: 5px;
+}
+.viewbutton-info{
+      
+    text-decoration: none;
+    color: white;
+}
+
+/* ----------- icon in button------------ */
+.arrow img{
+    width: 28px;
+    padding-top: 7px;
+    font-weight: 700;
+    text-decoration: wheat;
+}
+
+/* ------------ horizontal line ------------- */
+hr{
+    width: 80%;
+    border: 1px solid black;
+}
+
+/* ---------- form start ---------= */
+
+.form{
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 210px;
+    
+}
+
+/* ----------------- Form header ---------- */
+
+.form h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    color:#b84ab8;
+    font-size: 35px;
+}
+.name-email{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.name-form{
+    height: 40px;
+    width: 40%;
+    margin-left: 10px;
+    background-color: #FBFCFC;
+    
+}
+.email-form{
+    height: 40px;
+    width: 40%;
+    margin-right: 20px;
+    background-color: #FBFCFC;
+}
+.text-form{
+
+    width: 80%;
+    margin-left: 68px;
+    margin-top: 60px;
+    margin-bottom: 90px;
+    background-color: #FBFCFC;
+}
+/* ------------------ Form end ---------------- */
+
+/* --------------Footer start --------------- */
+footer{
+    height: 200px;
+    background-color: #be4dbe;
+}
+
+.social-media{
+    
+    width: 740px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25%;
+    
+}
+.social-media img{
+    width: 55px;
+    margin-top: -30px;
+    border: 5px solid 	#b148d2;
+    background-color: white;
+    margin-right: 180px;
+    
+}
+
+
+.footer-down{
+    
+    width: 85%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    color: white;
+    font-size: 19px;
+}
+/* --------------Footer end --------------- */
+
+
